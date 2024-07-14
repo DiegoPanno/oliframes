@@ -1,0 +1,73 @@
+.imgFondo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -2;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Color negro con 50% de opacidad */
+  z-index: -1; /* Asegura que el overlay esté sobre la imagen de fondo pero debajo del contenido */
+}
+
+.logoSinFondo {
+  height: 300px;
+  position: absolute;
+  top: 45%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   
+}
+
+.h2-home {
+  /* color: #c87a12; */
+  /* background-color: rgba(255, 255, 255, 0.696); */
+  font-size: 70px;
+  font-weight: 900;
+  color: #f8bf44;
+}
+
+.h1-home {
+  font-size: 30px;
+  color: #faf9f8;
+}
+
+.titulos-home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.titulos-logo-contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  
+}
+
+.img-titulos-contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  
+  
+}

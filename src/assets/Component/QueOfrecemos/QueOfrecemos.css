@@ -1,0 +1,134 @@
+.queOfrecemosContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative; /* Añade posicionamiento relativo al contenedor */
+    margin-top: 5%;
+}
+  
+  .h2Queofrecemos {
+    font-size: 53px;
+    color: #c87a12;
+    position: relative; 
+    z-index: 2; 
+    margin-top: 15%;
+}
+  
+  .h3Queofrecemos {
+    margin-bottom: 25%;
+    color: rgb(70, 69, 69);
+    font-size: 25px;
+    position: relative; /* Añade posicionamiento relativo */
+    z-index: 2; /* Añade un z-index mayor para que esté encima del h4 */
+  }
+  
+  .h4Queofrecemos {
+    color: rgba(89, 87, 87, 0.132);
+    font-size: 250px;
+    font-weight: 700;
+    position: absolute;
+    margin-bottom: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -80%); 
+    z-index: 1; 
+  }
+
+  .contenedorProducto {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    
+  }
+
+  .cuadroProducto {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    background-color: rgb(217, 214, 214);
+    height: 400px;
+    width: 300px;
+    transition: transform 0.3s ease;
+    
+  }
+.cuadroProducto:hover {
+    background-color: #c87a12;
+    color: black;
+    transform: scale(1.05);
+}
+
+.h3Producto {
+ color: rgb(57, 56, 56);
+ font-weight: 500;
+}
+
+.pCuadro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+    width: 200px;
+    font-size: 15px;
+}
+
+.h3Materia {
+    font-size: 53px;
+    color: #c87a12;
+}
+.contenedorMateria {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.cuadroMateria {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 400px;
+    width: 500px;
+    background-color: #322719;
+}
+
+.cuadroMateria2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: 400px;
+    width: 500px;
+    background-color: #efc998;
+}
+
+.h4Materia {
+    margin: 0;
+    font-size: 35px;
+    margin-left: 34%;
+}
+
+.h4Materia2 {
+    margin: 0;
+    font-size: 35px;
+    margin-left: 36%;
+    color: #322719;
+}
+
+h5 {
+    margin: 0;
+    font-size: 20px;
+    margin-left: 30%;
+}
+
+.h5materia2 {
+    margin: 0;
+    font-size: 20px;
+    margin-left: 30%;
+    color: #322719;
+}

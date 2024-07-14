@@ -1,0 +1,36 @@
+.contenedor-footer {
+    height: 300px;
+    width: 100%;
+    background-color: rgb(248, 247, 247);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-menu {
+    list-style: none; /* Eliminar los puntos de la lista */
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Espaciado entre los elementos del menú */
+  }
+  
+  .footer-menu a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .footer-menu a:hover {
+    background-color: #555;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  .copy {
+    color: black;
+    margin-top: 10px;
+  }
