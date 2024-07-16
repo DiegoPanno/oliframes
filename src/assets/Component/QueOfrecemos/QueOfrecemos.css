@@ -132,3 +132,82 @@ h5 {
     margin-left: 30%;
     color: #322719;
 }
+
+
+@media (max-width: 768px) {
+  
+  .h4Queofrecemos {
+   display: none;
+  }
+
+  .contenedorProducto {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 20px;
+    
+  }
+
+  .h3Materia {
+    width: 760px;
+    text-align: center;
+    font-size: 43px;
+    color: #c87a12;
+}
+.contenedorMateria {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 20px;
+}
+}
+
+@media (max-width: 768px) {
+  .h4Queofrecemos {
+    display: none;
+   }
+
+   .h2Queofrecemos {
+    font-size: 1.9rem;
+    margin: 0;
+   }
+   .hrCompany {
+    display: none;
+   }
+
+   .h3Queofrecemos {
+    width: 320px;
+    text-align: center;
+    margin-bottom: 4%;
+   }
+
+   .h3Materia {
+    width: 320px;
+    text-align: center;
+    font-size: 1.9rem;
+    color: #c87a12;
+ }
+
+ .cuadroMateria {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 400px;
+  width: 320px;
+  background-color: #322719;
+}
+
+.cuadroMateria2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 400px;
+  width: 320px;
+  background-color: #efc998;
+}
+
+}

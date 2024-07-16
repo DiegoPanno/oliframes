@@ -25,3 +25,21 @@
     margin-right: 10px;
   }
   
+  @media (max-width: 768px) {
+    .whatsapp-button {
+      display: flex;
+      align-items: center;
+      background-color: #25d366;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 100;
+  }
+  }

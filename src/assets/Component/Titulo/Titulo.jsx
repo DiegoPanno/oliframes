@@ -9,7 +9,6 @@ const Titulo = () => {
         <h1 className='h1-home'>Fabricamos aberturas de aluminio </h1>
         <h2 className='h2-home'>Viví la experiencia</h2>
       </div>
-      {/* <img className="logoSinFondo" src={logoSinFondo} alt="logo" /> */}
     </div>
   </div>
   )

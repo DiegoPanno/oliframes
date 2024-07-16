@@ -34,3 +34,17 @@
     color: black;
     margin-top: 10px;
   }
+
+   
+  @media (max-width: 768px) {
+    .footer-menu {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .contenedor-footer {
+      height: 250px;
+      width: auto;
+    }
+  }
