@@ -11,7 +11,7 @@ const WhatsAppButton = () => {
         alt="WhatsApp"
         className="whatsapp-icon"
       />
-      WhatsApp
+      <span className='spanWhat'>WhatsApp</span>
     </button>
   );
 };
