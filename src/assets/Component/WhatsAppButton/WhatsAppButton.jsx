@@ -5,14 +5,14 @@ import { openWhatsAppChat } from '../openWhatsAppChat';
 
 const WhatsAppButton = () => {
   return (
-    <button className="whatsapp-button" onClick={openWhatsAppChat}>
+    <div className="whatsapp-button" onClick={openWhatsAppChat}>
       <img
         src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
         alt="WhatsApp"
         className="whatsapp-icon"
       />
       <span className='spanWhat'>WhatsApp</span>
-    </button>
+    </div>
   );
 };
 
