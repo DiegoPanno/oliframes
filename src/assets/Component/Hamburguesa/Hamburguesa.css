@@ -1,10 +1,5 @@
 .nav-icon-5{
-    width: 35px;
-    height: 30px;
-    margin: 10px 10px;
-    position: relative;
-    cursor: pointer;
-    display: inline-block;
+    display: none;
   }
   .nav-icon-5 span{
     background-color:#f9f9f9;
@@ -49,11 +44,20 @@
     top: 13px;
   }
 
-  @media(min-width: 360px) {
+  @media(max-width: 768px) {
     
 
     .nav-icon-5 span{
       background-color:#c87a12;
       color: #f9f9f9;
+    }
+
+    .nav-icon-5 {
+      width: 35px;
+    height: 30px;
+    margin: 10px 10px;
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
     }
   }

@@ -28,7 +28,7 @@
     margin-left: auto; /* Empuja los enlaces de navegación a la derecha */
     display: flex; /* Asegura que los enlaces estén en una fila */
     align-items: center; /* Alinea los enlaces verticalmente */
-    margin-right: 5%;
+   
 }
   
   .nav-link {
@@ -49,7 +49,7 @@
     display: flex;
     justify-content: right;
     align-items: center;
-    margin-right: 5%;
+    margin-left: 50%;
   }
   
   @media (max-width: 768px) {
