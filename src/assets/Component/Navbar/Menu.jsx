@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import {  Nav } from "react-bootstrap";
 import { Link } from 'react-scroll';
 import logo from "../Navbar/logooLiframe.png";
@@ -7,6 +7,11 @@ import Hamburguesa from "../Hamburguesa/Hamburguesa";
 
 
 const Menu = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
   return (
     
       <div className="custom-navbar">
@@ -20,7 +25,9 @@ const Menu = () => {
           <Nav.Link as={Link} to="que-ofrecemos" smooth duration={500}>¿Qué ofrecemos?</Nav.Link>
           
         </div>
+        <div className="hamburguesa-container" onClick={toggleMenu}>
         <Hamburguesa />
+      </div>
       </div>
       
     
