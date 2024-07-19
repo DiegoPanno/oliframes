@@ -1,15 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 import "./Hamburguesa.css";
 
-const Hamburguesa = () => {
-  const [isOpen, setIsOpen] = useState(false);
-
-  const handleClick = () => {
-    setIsOpen(!isOpen);
-  };
-
+const Hamburguesa = ({ isOpen }) => {
   return (
-    <div className={`icon nav-icon-5 ${isOpen ? 'open' : ''}`} onClick={handleClick}>
+    <div className={`icon nav-icon-5 ${isOpen ? 'open' : ''}`}>
       <span></span>
       <span></span>
       <span></span>
@@ -18,4 +12,5 @@ const Hamburguesa = () => {
 };
 
 export default Hamburguesa;
+
  
