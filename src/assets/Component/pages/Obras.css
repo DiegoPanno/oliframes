@@ -1,0 +1,111 @@
+.titleObras {
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 35px;
+   color: #c87a12;
+   margin-top: 160px;
+   margin-left: 5%;
+}
+
+.conteCards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2%;
+    margin-bottom: 5%;
+
+}
+
+.cards {
+    display: flex;
+    width: 181px;
+    height: 321px;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #c87a12;
+    border-radius: 15px;
+    
+}
+
+.imgCards {
+    border-radius: 15px;
+    width: 179px;
+    height: 319px;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    object-fit: cover;
+}
+
+.cardsDos {
+    display: flex;
+    width: 581px;
+    height: 321px;
+    margin-top: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+    background-color: #c87a12;
+    border-radius: 15px;
+    
+}
+
+.imgCardsDos {
+    border-radius: 15px;
+    width: 579px;
+    height: 319px;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    object-fit: cover;
+}
+
+
+@media (max-width: 768px) {
+    .conteCards {
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+
+}
+
+.cards {
+    display: flex;
+    width: 181px;
+    height: 321px;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #c87a12;
+    border-radius: 15px;
+    
+}
+
+.imgCards {
+    border-radius: 15px;
+    width: 179px;
+    height: 319px;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    object-fit: cover;
+}
+
+.cardsDos {
+    display: flex;
+    width: 281px;
+    height: 141px;
+    margin-top: 5%;
+    margin-left: 2%;
+    margin-right: 2%;
+    background-color: #c87a12;
+    border-radius: 15px;
+    
+}
+
+.imgCardsDos {
+    border-radius: 15px;
+    width: 279px;
+    height: 139px;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    object-fit: cover;
+}
+
+}

@@ -1,9 +1,10 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import { Nav } from "react-bootstrap";
-import { Link } from 'react-scroll';
+
 import logo from "../Navbar/logooLiframe.png";
 import "./Menu.css";
 import Hamburguesa from "../Hamburguesa/Hamburguesa";
+import { Link as RouterLink } from "react-router-dom";
 
 const Menu = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -21,10 +22,34 @@ const Menu = () => {
       <div className="logo-container">
         <img src={logo} alt="Logo de la empresa" className="logo" />
       </div>
-      <div className={`ms-auto ${isOpen ? 'open' : ''}`}>
-        <Nav.Link as={Link} to="home" smooth duration={500} onClick={closeMenu}>Home</Nav.Link>
-        <Nav.Link as={Link} to="nosotros" smooth duration={500} onClick={closeMenu}>Nosotros</Nav.Link>
-        <Nav.Link as={Link} to="que-ofrecemos" smooth duration={500} onClick={closeMenu}>¿Qué ofrecemos?</Nav.Link>
+      <div className={`ms-auto ${isOpen ? "open" : ""}`}>
+        <Nav.Link
+          as={RouterLink}
+          to="/"
+          state={{ scrollTo: "home" }}
+          onClick={closeMenu}
+        >
+          Home
+        </Nav.Link>
+        <Nav.Link
+          as={RouterLink}
+          to="/"
+          state={{ scrollTo: "nosotros" }}
+          onClick={closeMenu}
+        >
+          Nosotros
+        </Nav.Link>
+        <Nav.Link
+          as={RouterLink}
+          to="/"
+          state={{ scrollTo: "que-ofrecemos" }}
+          onClick={closeMenu}
+        >
+          ¿Qué ofrecemos?
+        </Nav.Link>
+        <Nav.Link as={RouterLink} to="/Obras" onClick={closeMenu}>
+          Obras
+        </Nav.Link>
       </div>
       <div className="hamburguesa-container" onClick={toggleMenu}>
         <Hamburguesa isOpen={isOpen} />
@@ -34,6 +59,3 @@ const Menu = () => {
 };
 
 export default Menu;
-
-
-
