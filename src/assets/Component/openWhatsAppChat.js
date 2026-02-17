@@ -1,4 +1,4 @@
-export const phoneNumber = "+5492234230405"; // Reemplaza con tu número de teléfono
+export const phoneNumber = "+5492235639547"; // Reemplaza con tu número de teléfono
 export const message = "¡Hola! vengo del sitio web, necesito más info por un servicio";
 
 
